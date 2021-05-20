@@ -6,7 +6,9 @@ namespace Encryptor
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.Write("Escreva o texto para codificar: ");
+            string word = Console.ReadLine();
+            Console.WriteLine(word.Encrypt());
         }
     }
 }
