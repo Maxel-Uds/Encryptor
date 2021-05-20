@@ -1,2 +1,3 @@
-# Encryptor
- Programa que criptografa textos
+## Encryptor
+* Programa que criptografa textos
+* Projeto de criação própria
