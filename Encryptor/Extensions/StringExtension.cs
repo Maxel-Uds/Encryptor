@@ -18,6 +18,11 @@ namespace System
                     {
                         text.Append(codeLetter[j]);
                     }
+                    else if(Char.IsWhiteSpace(s[i]))
+                    {
+                        text.Append(".");
+                        break;
+                    }
                 }
             }
 
