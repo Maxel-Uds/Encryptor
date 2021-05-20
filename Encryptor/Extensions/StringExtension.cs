@@ -17,10 +17,16 @@ namespace System
                     if(s[i] == nomarlLetter[j])
                     {
                         text.Append(codeLetter[j]);
+                        break;
                     }
                     else if(Char.IsWhiteSpace(s[i]))
                     {
                         text.Append(".");
+                        break;
+                    }
+                    else if(Char.IsUpper(s[i]))
+                    {
+                        text.Append(s[i]);
                         break;
                     }
                 }
